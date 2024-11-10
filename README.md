@@ -6,7 +6,7 @@
 </p>
 <br />
 
-## prerequsities
+## prerequsites
 
 - [zsh shell](https://www.zsh.org/)
 - [oh-my-zsh](https://ohmyz.sh/)
