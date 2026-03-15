@@ -58,4 +58,4 @@ mts_precmd() {
 autoload -U add-zsh-hook
 add-zsh-hook precmd mts_precmd
 
-PROMPT='%(!.%F{red}.%F{green}%n%F{white}@)%B%F{blue}%m%b${vcs_info_msg_0_}%f::%F{yellow}%(!.%1~.%~) %F{green}%(!.#.>)%k%b%f '
+PROMPT='%(!.%F{red}.%F{green}%n%F{white}@)%B%F{blue}%m%b${vcs_info_msg_0_}%f::%F{yellow}%(!.%1~.%~) %(?..%F{white}[%F{red}%?%F{white}]%F{green} )%F{green}%(!.#.>)%k%b%f '
